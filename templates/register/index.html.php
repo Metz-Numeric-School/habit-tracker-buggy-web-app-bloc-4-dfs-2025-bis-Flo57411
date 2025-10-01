@@ -30,6 +30,9 @@
                         <div class="mb-3">
                             <label for="password" class="form-label">Mot de passe</label>
                             <input type="password" class="form-control" name="user[password]" id="password">
+                            <?php $hash = password_hash($password, PASSWORD_DEFAULT);
+                            if (password_verify($input, $hash)) { /* ok */ } ?>
+
                         </div>
                         <button type="submit" class="btn btn-primary w-100">Envoyer</button>
                     </form>

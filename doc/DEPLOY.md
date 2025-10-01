@@ -6,6 +6,16 @@ Décrivez ci-dessous votre procédure de déploiement en détaillant chacune des
 
 Todo...
 
+connexion au vps
+
+installation d'aapanel
+
+connexion au repository git
+
+config aapanel pour le site
+
+gestion du fichier .env
+
 ## Méthode de déploiement
 
 Todo...
